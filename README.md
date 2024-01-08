@@ -12,3 +12,13 @@ We then sought to expand analysis further by identifying facial landmarks that p
 
 ## Feature Extraction
 Geometric-based feature extraction involves the identification and extraction of different facial components or feature points that primarily represent the geometric structure of the face. This approach often relies on fixed points within the face image to derive essential information for gender classification. To extract these facial components, we incorporated a Python package called Dlib. It is a versatile open-source software library primarily written in C++ but with interfaces for Python as well. Dlib is designed to provide tools and algorithms for a variety of machine learning and computer vision tasks. It incorporates a face detector, a trained face key point detector, and a facial recognition model. The nine features include eyebrow length, eyebrow height, lip size, eye length, round face, face height, represented as floating point decimals, and lipstick, makeup, and necktie presence, represented as binary values.
+
+## Machine Learning Algorithim Implementation
+A variety of methods were chosen for analysis to provide a comprehensive understanding of the effectiveness of classification, dimensionality reduction, and clustering methods. 
+
+## Conclusion
+In conclusion, a variety of classification, clustering, and dimensionality reduction techniques were used in our thorough investigation of gender detection in face images, which produced insightful findings and useful performance indicators. We used PCA for dimensionality reduction, K-means for clustering, SVM, KNN, Decision Tree, Logistic Regression, QDA, and LDA for classification. 
+
+Achieving high accuracy in gender detection proved challenging due to factors such as class imbalance, non-distinctiveness of numeric values in facial features, noisy data, and limitations in the Dlib package. These limitations in the Dlib package stem from face images having too dark or light of a background, or face being turned, causing the data point to be values of 0. The lack of reproducibility in certain scenarios and the inability of Dlib to identify faces in challenging conditions led to misclassifications, adding complexity to the task.
+
+Our study emphasizes the significance of taking into account various methodologies when addressing gender detection in face images, despite these obstacles. In order to improve overall performance, future work should concentrate on reducing the limitations that have been found, investigating different feature selection techniques, fine-tuning model parameters, and possibly combining the advantages of various approaches.
