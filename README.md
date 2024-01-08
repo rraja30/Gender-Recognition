@@ -1,8 +1,15 @@
 # Gender-Recognition
 Analysis of facial images using the dlib python library to implements accurate gender recognition and prediction using the implementation of numerous machine learning models. This research explores the effectiveness of machine learning models in gender recognition based on facial features. The study initially focused on the analysis of six facial features extracted from images in the dataset. Then non-facial features were incorporated, leading to improved model performance. The paper emphasizes the importance of supplementing facial features with relevant non-facial characteristics for enhanced gender recognition accuracy. Through a comprehensive comparative analysis of various models, including Linear Discriminant Analysis, Quadratic Discriminant Analysis, Support Vector Machine, Decision Tree, k-Nearest Neighbors, and Logistic Regression, the study provides insights into the strengths and limitations of different feature sets, contributing to the broader understanding of gender recognition in images
 
+## Files
+AddFeatsAnalysis.ipynb - Analysis of all ML algorithims with nine extracted features
+AttributesCoorelationMatrix.ipynb - Analysis of the coorelation of all given features in the dataset
+LimFeatsAnalysis.ipynb - Analysis of all ML algorithims with six extracted features
+PCA_40Feats.ipynb - Principal Component Analysis enacted on all 40 attributes in given dataset
+MATH4210FinalReport_RajaGeigerAni.pdf - Comprehensive Research Report
+
 ## Data Setup
-The data used in this research, is from the [CelebA Dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset?resource=download-directory). Follow the data splitting procedure used to unsure equal testing and training sets. (The provided data set has more female images than male images, thus a paritition must be implemented to ensure accurate results)
+The data used in this research, is from the [CelebA Dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset?resource=download-directory). The face images have a broad range of pose variations and background complexities, which guarantees a thorough representation of real-world scenarios. CelebFaces contains 202,599 face images, 10,177 unique identities, and comprehensive annotations with 5 landmark locations and 40 binary attribute annotations per image. The data set is also accompanied with a .csv file with information pertaining to a binary representation of the 40 features per image for all images in the data set. Follow the data splitting procedure used to unsure equal testing and training sets. (The provided data set has more female images than male images, thus a paritition must be implemented to ensure accurate results) 
 ## Dlib Library Configuration
 Following the following [instructions](https://www.geeksforgeeks.org/how-to-install-dlib-library-for-python-in-windows-10/) to download the dlib library which will allow the extraction of features from images. 
 ## Feature Selection
