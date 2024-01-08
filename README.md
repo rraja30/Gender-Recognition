@@ -3,9 +3,13 @@ Analysis of facial images using the dlib python library to implements accurate g
 
 ## Files
 `AddFeatsAnalysis.ipynb` - Analysis of all ML algorithims with nine extracted features
+
 `AttributesCoorelationMatrix.ipynb` - Analysis of the coorelation of all given features in the dataset
+
 `LimFeatsAnalysis.ipynb` - Analysis of all ML algorithims with six extracted features
+
 `PCA_40Feats.ipynb` - Principal Component Analysis enacted on all 40 attributes in given dataset
+
 `MATH4210FinalReport_RajaGeigerAni.pdf` - Comprehensive Research Report
 
 ## Data Setup
